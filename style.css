@@ -1,9 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     --r-globalnav-color-white: rgba(255, 255, 255, .8);
-    --r-globalnav-color-black: #151516
+    --r-globalnav-color-black: #151516;
+    font-family: 'SF Pro Display', sans-serif;                                        
 }
 
 #globalnav{
@@ -28,6 +30,7 @@
 
 /* local nav */
 #local-nav{
+    padding: 20px;
     background-color: var(--r-globalnav-color-black);
     color: white;
     display: flex;
@@ -37,6 +40,31 @@
 .local-nav-menu > ul{
     display: flex;
     flex-direction: row;
-    margin: 0 50px;
     list-style: none;
+    padding-top: 10px;
+}
+
+.local-nav-menu > ul > li {
+    opacity: .9;
+    margin: 0 10px;
+    align-items: center;
+}
+
+#local-nav-btn{
+    color: white;
+    background: #0071E3;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+#local-nav-small-title{
+    font-size: 0.85rem;
+    opacity: .9;
+}
+#local-nav-big-title{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
 }
