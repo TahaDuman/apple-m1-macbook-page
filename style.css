@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --r-globalnav-color-white: rgba(255, 255, 255, .8);
+    --r-globalnav-color-black: #151516
+}
+
+#globalnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--r-globalnav-color-black);
+}
+
+#globalnavchild{
+    color: var(--r-globalnav-color-white);
+    background: var(--r-globalnav-color-black);
+    margin: 0 18px;
+    text-decoration: none;
+}
+
+/* change color of svg to black */
+.invert-svg{
+    filter: invert(100%);
+    margin-top: 3px;
+}
+
+/* local nav */
+#local-nav{
+    background-color: var(--r-globalnav-color-black);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.local-nav-menu > ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+    list-style: none;
+}
