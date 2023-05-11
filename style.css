@@ -66,5 +66,52 @@
 #local-nav-big-title{
     font-weight: bolder;
     font-size: 1.3rem;
-    
+}
+
+/* hero img part */
+#hero-media{
+    background-color: black;
+    overflow: clip;
+}
+#hero-img{
+    margin: 110px 0 0 33vh;
+    overflow: hidden;
+}
+/* hero txt part */
+#hero-text{
+    background: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero-eyebrow{
+    color: white;
+}
+
+#hero-headline{
+    color: var(--r-globalnav-color-white);
+    font-size: 5rem;
+}
+
+#hero-copy{
+    color: var(--r-globalnav-color-white);
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 500;
+    letter-spacing: .004em;
+    margin: 0 17%;
+}
+
+#hero-callout{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#hero-callout-txt{
+    color: var(--r-globalnav-color-white);
+    font-size: 1.8rem;
 }
